@@ -205,6 +205,8 @@ def main():
                     key = 8
                 if event.key == pygame.K_9:
                     key = 9
+                if event.key == pygame.K_0:
+                    key = 0
                 if event.key == pygame.K_DELETE:
                     board.clear()
                     key = None
